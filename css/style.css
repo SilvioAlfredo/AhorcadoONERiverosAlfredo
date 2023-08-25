@@ -1,13 +1,18 @@
 *{
     font-family: sans-serif;
 }
-#logo{
-    width: 10%;
-    margin-left: 1.4em;
-    border: 2px solid #88b3daab;
-    margin-top: 1.2em;
-    padding: 2.5em 1.2em;
-    border: none;
+body{
+    background: #050c1d;
+}
+.titulo{
+    text-align: center;
+    padding:40px;
+    color: rgb(22, 187, 242);
+    font-size: 6.4em;
+    margin-top: 3.5%;
+}
+.tituloIndex{
+    text-shadow: 10px 10px 10px rgb(78, 139, 159);
 }
 main{
     margin: 10px 8px;
@@ -158,7 +163,7 @@ main{
 
 footer{
     text-align: center;
-    background: #fcfcfc;
+    background: #050c1d;
     padding:40px;
     color: rgb(75, 172, 204);
     font-size: 1.4em;
