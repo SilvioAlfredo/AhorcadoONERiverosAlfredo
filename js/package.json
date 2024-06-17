@@ -1,0 +1,11 @@
+{
+  "name": "ahorcadojs",
+  "version": "1.0.0",
+  "description": "Juego del ahorcado hecho con tecnologías web",
+  "main": "main.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Riveros Silvio",
+  "license": "ISC"
+}

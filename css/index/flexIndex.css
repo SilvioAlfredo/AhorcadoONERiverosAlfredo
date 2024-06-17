@@ -1,0 +1,18 @@
+.cuerpo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tituloIndex{
+  text-align: center;
+}
+.inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start{
+  text-align: center;
+  text-decoration: none;
+}

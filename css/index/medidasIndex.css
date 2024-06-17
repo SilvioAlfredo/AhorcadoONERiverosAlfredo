@@ -1,0 +1,25 @@
+.cuerpo .header .main .pie{
+  width: 100%;
+}
+.header{
+  height: 15%;
+} 
+.main{
+  height: 70%;
+} 
+.pie{
+  height: 15%;
+}
+.tituloIndex{
+  font-size: 10vw;
+  padding-top: 8vh;
+}
+.inicio{
+}
+.start{
+  border-radius: 20%;
+  font-size: 3vw;
+  padding: 4vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
