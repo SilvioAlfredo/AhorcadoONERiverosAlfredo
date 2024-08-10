@@ -5,45 +5,47 @@
 		<meta name="viewport" content="width=device-width">
 		<title>Ahorcado</title>
         <link rel = "stylesheet" href="./css/reset.css">
-        <link rel = "stylesheet" href="./css/style.css">
-        
+        <link rel = "stylesheet" href="./css/horca/styleHorca.css">
+				<link rel = "stylesheet" href="./css/horca/medidas.css">
+				<link rel = "stylesheet" href="./css/horca/flexHorca.css">
 	</head>
 
 	<body>
-		<div class="titulo">
-			<h1 class="tituloIndex">AHORCADO</h1>
-		</div>
-		<main >
-
+		<header class="titulo">
+			<h1 class="tituloAhorcado">AHORCADO</h1>
+			<!--Añadiré algunos corazones para marcar las vidas-->
+		</header>
+		<main class="main">
 			<div class="escenaDos">
-
 				<div class="contenedorHorca" >
-					
+					<img class="imagenHorca" src="./img/horca.png">
 				</div>
-
+				<div class="contenedorPalabra">
+					<ul class="palabraIncognita">
+					</ul>
+				</div>
 				<div class="contenedorLetras">
-
 					<div class="contenedorErrores">
-
+						<ul class="listaIncorrectas">
+							<li class="letraIncorrecta"><h3>| </h3></li>
+						</ul>
 					</div>
 					<div class="contenedorAciertos">
-
+						<ul class="listaCorrectas">
+							<li class="letraCorrecta"><h3>| </h3></li>
+						</ul>
 					</div>
-					
 				</div>
-				
 				<div class="contenedorBotones">
 					<button type="button" class="reload">Nuevo juego</button>
 					<button type="button" class="desistir">Desistir</button>
 				</div>
-
 			</div>
-
-    </main>
+		</main>
 		<footer class = "pie">
-			<p>&copy Riveros Silvio A.</p>
+			<p class="copy">&copy Riveros Silvio A.</p>
 		</footer>
-    </body>
+  </body>
     <script src="./js/botonesHorca.js"></script>
-	<script src="./js/logicaHorca.js"></script> 
+		<script src="./js/main.js"></script>
 </html>

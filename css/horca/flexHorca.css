@@ -1,0 +1,60 @@
+.titulo{
+  height: 10%;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  height: 60%
+
+}
+.escenaDos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedorHorca{
+  display: flex;
+  justify-content: center;
+}
+.imagenHorca{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorPalabra{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.palabraIncognita{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.letraCorrecta{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.letraIncorrecta{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contenedorLetras,.listaIncorrectas, .listaCorrectas{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contenedorBotones{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.pie{
+  height: 10%;
+  text-align: center;
+}

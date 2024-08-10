@@ -1,0 +1,54 @@
+.titulo{
+  text-align: center;
+  padding: 3vh;
+  font-size: 3.5vw;
+}
+.escenaDos{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.imagenHorca{
+  width: 18vw;
+  padding: 1vw;
+}
+
+.contenedorPalabra{
+  padding-bottom: 1vw;
+}
+
+.palabraIncognita{
+  padding-right: 1vw;
+}
+.letraIncognita{
+  font-size: 3vw;
+  padding-left: 2vw;
+}
+.letraCorrecta, .letraIncorrecta{
+  font-size: 3vw;
+  padding-left: 2vw;
+  padding-right: 1vw;
+}
+.contenedorLetras,.listaIncorrectas, .listaCorrectas{
+  padding-right: 1vw;
+}
+
+.contenedorBotones{
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.reload{
+  border-radius: 0.8em;
+  font-size: 2vw;
+  padding: 1vw;
+}
+.desistir{
+  border-radius: 0.8em;
+  font-size: 2vw;
+  padding: 1vw;
+}
+.copy{
+  padding:2vw;
+  font-size: 2vw;
+}

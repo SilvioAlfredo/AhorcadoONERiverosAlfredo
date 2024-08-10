@@ -1,53 +1,47 @@
-#horca{
-  background-color: lightgrey;
-  margin: 2%, 2%, 2%, 2%;
-
+.titulo{
+  text-align: center;
+  color: rgb(22, 187, 242);
+  background-color: #050c1d;
 }
+.tituloAhorcado{
+  text-shadow: 5px 5px 5px rgb(78, 139, 159);
+}
+.main{
+  background-color: #F3F5FC;
+}
+.escenaDos{
+  background-color: #F3F5FC;
+}
+
+.letraCorrecta{
+  color: seagreen;
+}
+.letraIncorrecta{
+  color: tomato;
+}
+
+/*Estilos de los botones*/
+
 .reload{
-  border: none;
-  padding: 1.2em;
   color: #F3F5FC;
   background: #0A3871;
   border:#0A3871;
-  text-align: left;
-  text-decoration: none;
-  display: inline;
-  border-radius: 0.8em;
-  font-size: 1.3em;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-left: 25%;
-  margin-top: 2.5%;
-  margin-bottom: 10px;
-  margin-right: 2.5%;
-  padding-left: 6.5%;
-  padding-right: 6.5%;
 }
+
 .reload:hover{
   background: #252836;
 }
 .desistir{
-  padding: 1.2em;
-  font-size: 1.3em;
-  text-align: left;
-  font-weight: lighter;
   color: #0A3871;
   background: #F3F5FC;
   border:#0A3871;
-  border-radius: 0.8em;
-  margin: 4px 2px;
-  padding-left: 8.5%;
-  padding-right: 8.5%;
-  cursor: pointer;
 }
 .desistir:hover{
   background: #4f5570;
 }
 
 footer{
-  text-align: center;
   background: #050c1d;
-  padding:40px;
   color: rgb(75, 172, 204);
-  font-size: 1.4em;
 }
+

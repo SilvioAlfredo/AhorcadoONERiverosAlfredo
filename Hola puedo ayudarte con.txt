@@ -1,0 +1,34 @@
+Hola, puedo ayudarte con eso. Para acceder y modificar el contenido de los elementos `li` generados dinámicamente, puedes usar los siguientes pasos:
+
+1. Primero, almacena en una variable los elementos `li` recién generados:
+
+```javascript
+const letrasCampo = document.querySelectorAll('.letraIncognita');
+```
+
+Esto te dará una lista de todos los elementos `li` con la clase `.letraIncognita`.
+
+2. Después, cuando necesites cambiar el valor de un elemento específico, puedes acceder a él por su índice en la lista y modificar su contenido HTML:
+
+```javascript
+function escribirLetraCorrecta(index) {
+  letrasCampo[index].innerHTML = `<h3>${palabraSecreta[index]}</h3>`;
+}
+```
+
+En este caso, la función `escribirLetraCorrecta()` recibe el índice de la letra correcta en la palabra secreta, y luego accede al elemento `li` correspondiente en la lista `letrasCampo` para cambiar su contenido HTML a la letra correcta.
+
+De manera similar, puedes modificar la función `adicionarLetraIncorrecta()` para actualizar los elementos `li` que representan las letras incorrectas:
+
+```javascript
+function adicionarLetraIncorrecta(letra) {
+  const letraIncorrectaEl = document.createElement('li');
+  letraIncorrectaEl.innerHTML = `<h3>${letra}</h3>`;
+  letraIncorrectaEl.classList.add('letraIncorrecta');
+  document.querySelector('.letrasIncorrectas').appendChild(letraIncorrectaEl);
+}
+```
+
+En este caso, creamos un nuevo elemento `li`, le asignamos el contenido HTML con la letra incorrecta, le añadimos la clase `.letraIncorrecta`, y lo agregamos al contenedor de letras incorrectas.
+
+Espero que esto te ayude a completar las funciones `adicionarLetraCorrecta()` y `adicionarLetraIncorrecta()`. Si tienes más preguntas, no dudes en hacerlas.
